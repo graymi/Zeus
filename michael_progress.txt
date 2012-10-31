@@ -1,5 +1,14 @@
 Michael Gray
 
+10-30-2012
+
+Progress: Changed code to used index vectors to make life easier as well as move everything into 1 project so far. So far Circle (z normal) quad and triangle are rendered using vertices
+
+Goal: rotate the circle to coincide with a specific normal
+
+Blocks: As of 2 today there is no directx in cgel
+
+
 10-25-2012
 
 Progress: 1 triangle rendered
