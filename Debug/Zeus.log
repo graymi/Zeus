@@ -1,0 +1,39 @@
+﻿Build started 2/14/2013 3:07:07 PM.
+     1>Project "Z:\Desktop\Zeus\Zeus.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Zeus.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PhysX.cpp Zeus.cpp
+         Zeus.cpp
+     1>z:\desktop\zeus\physx\include\pxtask\pxcudamemorymanager.h(202): warning C4003: not enough actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\pxtask\pxcudamemorymanager.h(202): error C2059: syntax error : ','
+     1>z:\desktop\zeus\physx\include\pxtask\pxcudamemorymanager.h(208): error C2059: syntax error : 'constant'
+     1>z:\desktop\zeus\physx\include\pxtask\pxcudamemorymanager.h(236): warning C4002: too many actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\pxtask\pxcudamemorymanager.h(236): error C2059: syntax error : 'constant'
+     1>z:\desktop\zeus\physx\include\pxtask\pxcudamemorymanager.h(239): warning C4002: too many actual parameters for macro 'realloc'
+     1>z:\desktop\zeus\physx\include\pxtask\pxcudamemorymanager.h(239): error C2059: syntax error : 'constant'
+     1>z:\desktop\zeus\physx\include\pxtask\pxgpucopydescqueue.h(71): warning C4002: too many actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\pxtask\pxgpucopydescqueue.h(88): warning C4002: too many actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\pxtask\pxgpucopydescqueue.h(71): error C2660: 'physx::pxtask::CudaMemoryManager::_free_dbg' : function does not take 2 arguments
+     1>z:\desktop\zeus\physx\include\pxtask\pxgpucopydescqueue.h(86): error C2660: 'physx::pxtask::CudaMemoryManager::_free_dbg' : function does not take 2 arguments
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehiclewheels.h(88): warning C4003: not enough actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehiclewheels.h(88): error C2059: syntax error : ','
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehiclewheels.h(584): warning C4003: not enough actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehiclewheels.h(584): error C2059: syntax error : ','
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicledrive.h(418): warning C4003: not enough actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicledrive.h(418): error C2059: syntax error : ','
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicledrive4w.h(161): warning C4003: not enough actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicledrive4w.h(161): error C2059: syntax error : ','
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicledrivetank.h(127): warning C4003: not enough actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicledrivetank.h(127): error C2059: syntax error : ','
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicleutiltelemetry.h(298): warning C4003: not enough actual parameters for macro 'free'
+     1>z:\desktop\zeus\physx\include\vehicle\pxvehicleutiltelemetry.h(298): error C2059: syntax error : ','
+     1>z:\desktop\zeus\physx\include\pxtkfps.h(34): fatal error C1083: Cannot open include file: 'PsTime.h': No such file or directory
+         PhysX.cpp
+     1>z:\desktop\zeus\physx\include\pxtkfps.h(34): fatal error C1083: Cannot open include file: 'PsTime.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "Z:\Desktop\Zeus\Zeus.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.83

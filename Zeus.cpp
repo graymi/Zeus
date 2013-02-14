@@ -2399,8 +2399,8 @@ void ZeusApp::BuildShadowTransform(int source, bool omni)
 {
     // Only the first "main" light casts a shadow.
     XMVECTOR lightDir = XMLoadFloat3(&mDirLights[source].Direction);
-    XMVECTOR lightPos = -2.0f*mSceneBounds.Radius*lightDir;
-    XMVECTOR targetPos = XMLoadFloat3(&mSceneBounds.Center);
+    XMVECTOR lightPos = -2.0f*mSceneBounds.Radius*lightDir + mCam.GetPositionXM();
+	XMVECTOR targetPos = mCam.GetPositionXM();
     XMVECTOR up = XMVectorSet(0.0f, 1.0f, 0.0f, 0.0f);
 	
     XMMATRIX V = XMMatrixLookAtLH(lightPos, targetPos, up);

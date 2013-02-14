@@ -1,0 +1,17 @@
+﻿Build started 2/14/2013 3:23:08 PM.
+     1>Project "Z:\Desktop\Zeus\Zeus.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Zeus.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Zeus.vcxproj -> Z:\Desktop\Zeus\Release\Zeus.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\Zeus.unsuccessfulbuild".
+         Touching "Release\Zeus.lastbuildstate".
+     1>Done Building Project "Z:\Desktop\Zeus\Zeus.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31
