@@ -1,8 +1,0 @@
-/*
- * main.cpp
- *
- */
-
-int main(){
-
-}
